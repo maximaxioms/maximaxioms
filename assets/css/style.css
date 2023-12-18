@@ -524,6 +524,10 @@ color: white;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
  
 }
 
@@ -589,12 +593,13 @@ color: white;
   font-size: large;
   font-weight: bolder;
   padding: 13px 20px 13px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 
 }
 
 }
-
-
 
 
 
