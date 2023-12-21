@@ -53,7 +53,8 @@ h6,
   font-family: monospace;
   font-size: 50px;
   margin-left: 25px;
-
+  display: block;
+  
 }
 
 @media (max-width: 1400px) {
@@ -100,9 +101,18 @@ font-size: 50px;
 @media (max-width: 452px) {
 
 #haniyaheading{
-font-size: 30px;
+font-size: 50px;
 }
-                  
+
+
+}
+
+@media (max-width:360px){
+  #haniyaheading{
+    font-size: 40px;
+  }
+  
+  
 }
 
                      
@@ -112,7 +122,7 @@ font-size: 30px;
 @media (max-width: 1400px) {
 
 #haniyyasubheading{
-font-size: 30px;
+font-size: 55px;
 margin: 20px;
 }
                       
@@ -121,7 +131,7 @@ margin: 20px;
 @media (max-width: 991px) {
 
 #haniyyasubheading{
-font-size: 25px;
+font-size: 50px;
 margin: 15px;
 }
                           
@@ -130,8 +140,10 @@ margin: 15px;
 @media (max-width: 767px) {
 
 #haniyyasubheading{
-font-size: 20px;
+font-size: 40px;
 margin: 10px;
+display: block; /* Allow text to wrap and break in smaller screens */
+
 }
                               
 }
@@ -140,7 +152,7 @@ margin: 10px;
 @media (max-width: 531px) {
 
   #haniyyasubheading{
-  font-size: 15px;
+  font-size: 35px;
   margin: 8px;
   }
                                 
@@ -150,10 +162,23 @@ margin: 10px;
   @media (max-width:452px) {
 
     #haniyyasubheading{
-   visibility: hidden;
+   font-size: 30px;
+   margin-left: 20px;
     }
                                   
     }
+
+
+
+  @media (max-width:360px) {
+
+    #haniyyasubheading{
+   font-size: 20px;
+   margin-left: 20px;
+    }
+                                  
+    }
+
 
 
                           
@@ -656,4 +681,11 @@ border-radius: 50%;
 .carousel-control-next span{
   height: 35px;
   width: 35px;
+}
+
+
+#container-top-left{
+  background-color: palevioletred;
+  border-radius: 10px;
+  
 }
